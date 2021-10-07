@@ -24,8 +24,10 @@ git config --list
 git status
 ```
 ### 알아보기
-- [ ] ?
+- [ ] 명령어 알아보기
 ```bash
 git branch --set-upstream-to=origin/main main
+git branch -M main
+git push -u origin main
 ```
 - [ ] rebase
