@@ -19,3 +19,13 @@ git config --global user.email johndoe@example.com
 ```bash
 git config --list
 ```
+### git 상태확인
+```bash
+git status
+```
+### 알아보기
+- [ ] ?
+```bash
+git branch --set-upstream-to=origin/main main
+```
+- [ ] rebase
