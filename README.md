@@ -31,3 +31,13 @@ git branch -M main
 git push -u origin main
 ```
 - [ ] rebase
+- [ ] stash
+- [X] ignore
+```plainText
+ File: .gitignore
+───────┼────────────────────────────────────────────────────────────────────────
+   1   │ ## Ignore File ##
+   2   │
+   3   │ # ignore all files in the target/ directory
+   4   │ target/
+```
