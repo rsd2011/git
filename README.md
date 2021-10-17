@@ -31,7 +31,12 @@ git branch -M main
 git push -u origin main
 ```
 - [ ] rebase
-- [ ] stash
+- [X] stash
+```bash
+git stash
+git stash list
+git stash apply
+```
 - [X] ignore
 ```plainText
  File: .gitignore
