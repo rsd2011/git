@@ -24,10 +24,13 @@ git config --list
 git status
 ```
 ### 알아보기
-- [ ] 명령어 알아보기
+- [X] 명령어 알아보기
 ```bash
+# main브랜치에 원격저장소를 지정
 git branch --set-upstream-to=origin/main main
+# 브랜치 생성
 git branch -M main
+# 원격저장소인 origin에 main브랜치를 push
 git push -u origin main
 ```
 - [ ] rebase
@@ -36,6 +39,8 @@ git push -u origin main
 git stash
 git stash list
 git stash apply
+# 적용 후 제거
+git stash apply pop
 ```
 - [X] ignore
 ```plainText
